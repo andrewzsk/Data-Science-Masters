@@ -1,0 +1,49 @@
+##Quiz
+
+print("WELCOME to ANDREW's QUIZ")
+playing=input("Do you want to play: ")
+if playing.lower() !="yes":
+  quit()
+
+print("LETS BEGIN")
+score=0
+answer=input("What does CPU Stand for:  ")
+if answer.lower()=="central processing unit":
+ score+=1
+ print("YOu are correct. You have",str(score),"questions correct")
+
+else:
+ print("You are wrong")
+
+answer=input("What does CPU Stand for:  ")
+if answer.lower()=="central processing unit":
+ score+=1
+ print("YOu are correct. You have",str(score),"questions correct")
+
+else:
+ print("You are wrong")
+
+answer=input("What does CPU Stand for:  ")
+if answer.lower()=="central processing unit":
+ score+=1
+ print("YOu are correct. You have",str(score),"questions correct")
+
+else:
+ print("You are wrong")
+
+answer=input("What does CPU Stand for:  ")
+if answer.lower()=="central processing unit":
+ score+=1
+ print("YOu are correct. You have",str(score),"questions correct")
+
+else:
+ print("You are wrong")
+
+answer=input("What does CPU Stand for:  ")
+if answer.lower()=="central processing unit":
+ score+=1
+ print("YOu are correct. You have",str(score),"questions correct")
+else:
+ print("You are wrong")
+
+print("You have scored {}".format(score))

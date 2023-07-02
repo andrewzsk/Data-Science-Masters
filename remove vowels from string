@@ -1,0 +1,13 @@
+def remove_vowels():
+    vowels=['a','e','i','o','u','A','E','I','O','U']
+    user=input("Enter a string: ")
+    non_vowel=""
+    for i in user:
+        if i not in vowels:
+            non_vowel=non_vowel+i
+    return non_vowel
+
+#non_vowel_string = remove_vowels()                   ###### THis is one way to call a funtion
+#print("String with vowels removed:", non_vowel_string)
+
+print("String with vowels removed:", remove_vowels())
